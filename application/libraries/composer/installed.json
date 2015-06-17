@@ -1,0 +1,260 @@
+[
+    {
+        "name": "emberlabs/gravatarlib",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "emberlabs/gravatarlib",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/emberlabs/gravatarlib.git",
+            "reference": "6bd70321aa59a8002d5fa08d9b592121683801df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/emberlabs/gravatarlib/zipball/6bd70321aa59a8002d5fa08d9b592121683801df",
+            "reference": "6bd70321aa59a8002d5fa08d9b592121683801df",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "twig/twig": ">=1.4.0"
+        },
+        "time": "2011-12-28 22:28:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "emberlabs\\gravatarlib\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sam Thompson",
+                "email": "sam@emberlabs.org"
+            },
+            {
+                "name": "Damian Bushong",
+                "email": "damian@emberlabs.org"
+            }
+        ],
+        "description": "A lightweight PHP 5.3 OOP library providing easy gravatar integration.",
+        "homepage": "http://emberlabs.org/",
+        "keywords": [
+            "gravatar",
+            "templating",
+            "twig"
+        ]
+    },
+    {
+        "name": "codeplex/phpexcel",
+        "version": "1.7.8",
+        "version_normalized": "1.7.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/markushausammann/PHPExcel.git",
+            "reference": "6236b1e1513dda38a68a5ac22bbab5fc2b7942fd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/markushausammann/PHPExcel/zipball/6236b1e1513dda38a68a5ac22bbab5fc2b7942fd",
+            "reference": "6236b1e1513dda38a68a5ac22bbab5fc2b7942fd",
+            "shasum": ""
+        },
+        "require": {
+            "ext-xml": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2012-11-21 10:55:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPExcel": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Maarten Balliauw",
+                "homepage": "http://blog.maartenballiauw.be"
+            },
+            {
+                "name": "Mark Baker"
+            },
+            {
+                "name": "Erit Tilt"
+            }
+        ],
+        "description": "PHPExcel - OpenXML - Create Excel2007 documents in PHP - Spreadsheet engine",
+        "homepage": "http://phpexcel.codeplex.com",
+        "keywords": [
+            "OpenXML",
+            "excel",
+            "php",
+            "spreadsheet"
+        ]
+    },
+    {
+        "name": "mouf/utils.cache.cache-interface",
+        "version": "2.0.x-dev",
+        "version_normalized": "2.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thecodingmachine/utils.cache.cache-interface.git",
+            "reference": "85ed0a965fd18d89c509cfbacb68a240844afc0a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thecodingmachine/utils.cache.cache-interface/zipball/85ed0a965fd18d89c509cfbacb68a240844afc0a",
+            "reference": "85ed0a965fd18d89c509cfbacb68a240844afc0a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-10-29 18:21:59",
+        "type": "mouf-library",
+        "extra": {
+            "mouf": {
+                "require-admin": [
+                    "CacheAdmin.php"
+                ],
+                "logo": "logo.png"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Mouf\\Utils\\Cache": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Négrier",
+                "email": "d.negrier@thecodingmachine.com",
+                "homepage": "http://mouf-php.com"
+            }
+        ],
+        "description": "This package only contains the interface that must be implemented by caching classes. Unless you want to implement your own caching method, you should import a cache package that will use this interface. For instance, common.utils.session-cache, or common.utils.file-cache.",
+        "homepage": "https://github.com/thecodingmachine/utils.cache.cache-interface",
+        "keywords": [
+            "cache",
+            "interface",
+            "mouf"
+        ]
+    },
+    {
+        "name": "mouf/utils.cache.in-memory-cache",
+        "version": "1.0.x-dev",
+        "version_normalized": "1.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thecodingmachine/utils.cache.in-memory-cache.git",
+            "reference": "9959a4d822e22dfcf1d79f31ab2f91785cb09cad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thecodingmachine/utils.cache.in-memory-cache/zipball/9959a4d822e22dfcf1d79f31ab2f91785cb09cad",
+            "reference": "9959a4d822e22dfcf1d79f31ab2f91785cb09cad",
+            "shasum": ""
+        },
+        "require": {
+            "mouf/utils.cache.cache-interface": "2.*",
+            "php": ">=5.3.0"
+        },
+        "time": "2013-10-29 18:21:59",
+        "type": "mouf-library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Mouf\\Utils\\Cache": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Négrier",
+                "email": "d.negrier@thecodingmachine.com",
+                "homepage": "http://mouf-php.com"
+            }
+        ],
+        "description": "This package contains the most basic cache mechanism. It stores cache items in an array. It means the cache is flushed as soon as the script returns. It is very basic, but also very fast. You will usually use this mechanism with another one just behind.",
+        "homepage": "https://mouf-php/packages/mouf/utils.cache.local-cache",
+        "keywords": [
+            "cache",
+            "in-memory",
+            "mouf"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "a666aea346c1b3f28f09a7faac624dc0ea3d6741"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a666aea346c1b3f28f09a7faac624dc0ea3d6741",
+            "reference": "a666aea346c1b3f28f09a7faac624dc0ea3d6741",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-08-07 07:01:58",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.pop3.php",
+                "class.smtp.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    }
+]

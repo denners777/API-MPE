@@ -1,0 +1,23 @@
+{
+  "description": "Intranet do Grupo MPE",
+  "name": "Intranet",
+  "authors": [
+    {
+      "name": "Denner Fernandes",
+      "email": "denners777@hotmail.com"
+    }
+  ],
+  "license": "OSL-3.0",
+  "config": {
+    "vendor-dir": "application/libraries"
+  },
+  "require": {
+    "php": ">=5.3",
+    "emberlabs/gravatarlib": "dev-master",
+    "phpmailer/phpmailer": "dev-master",
+    "CodePlex/PHPExcel": "*",
+    "mouf/utils.cache.cache-interface": "2.0.*@dev",
+    "mouf/utils.cache.in-memory-cache": "1.0.*@dev"
+  }
+}
+
